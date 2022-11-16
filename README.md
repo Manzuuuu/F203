@@ -2,13 +2,13 @@
 room for lesson
 # Program make a simple calculator
 
-# This function adds two numbers
+# This function adds two km
 def add(x, y):
-    return x + y
+    return x - y
 
 # This function subtracts two numbers
 def subtract(x, y):
-    return x - y
+    return y - x
 
 # This function multiplies two numbers
 def multiply(x, y):
@@ -27,10 +27,10 @@ print("4.Divide")
 
 while True:
     # take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter choice(1/2/3/5): ")
 
     # check if choice is one of the four options
-    if choice in ('1', '2', '3', '4'):
+    if choice in ('1', '2', '3', '5'):
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
 
